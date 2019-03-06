@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		AC55A196222FC00400BD84C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC55A195222FC00400BD84C1 /* AppDelegate.swift */; };
-		AC55A198222FC00400BD84C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC55A197222FC00400BD84C1 /* ViewController.swift */; };
 		AC55A19B222FC00400BD84C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC55A199222FC00400BD84C1 /* Main.storyboard */; };
 		AC55A19D222FC00600BD84C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC55A19C222FC00600BD84C1 /* Assets.xcassets */; };
 		AC55A1A0222FC00600BD84C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC55A19E222FC00600BD84C1 /* LaunchScreen.storyboard */; };
+		ACE4CA46222FC24500543FF9 /* FirstTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CA45222FC24500543FF9 /* FirstTimeViewController.swift */; };
+		ACE4CA48222FC26100543FF9 /* SecondTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CA47222FC26100543FF9 /* SecondTimeViewController.swift */; };
+		ACE4CA4A222FC27B00543FF9 /* ThirdTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CA49222FC27B00543FF9 /* ThirdTimeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC55A192222FC00400BD84C1 /* MyTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC55A195222FC00400BD84C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC55A197222FC00400BD84C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC55A19A222FC00400BD84C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC55A19C222FC00600BD84C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC55A19F222FC00600BD84C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC55A1A1222FC00600BD84C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE4CA45222FC24500543FF9 /* FirstTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTimeViewController.swift; sourceTree = "<group>"; };
+		ACE4CA47222FC26100543FF9 /* SecondTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTimeViewController.swift; sourceTree = "<group>"; };
+		ACE4CA49222FC27B00543FF9 /* ThirdTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTimeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +59,23 @@
 			isa = PBXGroup;
 			children = (
 				AC55A195222FC00400BD84C1 /* AppDelegate.swift */,
-				AC55A197222FC00400BD84C1 /* ViewController.swift */,
 				AC55A199222FC00400BD84C1 /* Main.storyboard */,
+				ACE4CA4B222FC29200543FF9 /* TimeViewControllers */,
 				AC55A19C222FC00600BD84C1 /* Assets.xcassets */,
 				AC55A19E222FC00600BD84C1 /* LaunchScreen.storyboard */,
 				AC55A1A1222FC00600BD84C1 /* Info.plist */,
 			);
 			path = MyTime;
+			sourceTree = "<group>";
+		};
+		ACE4CA4B222FC29200543FF9 /* TimeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACE4CA45222FC24500543FF9 /* FirstTimeViewController.swift */,
+				ACE4CA47222FC26100543FF9 /* SecondTimeViewController.swift */,
+				ACE4CA49222FC27B00543FF9 /* ThirdTimeViewController.swift */,
+			);
+			path = TimeViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC55A198222FC00400BD84C1 /* ViewController.swift in Sources */,
+				ACE4CA46222FC24500543FF9 /* FirstTimeViewController.swift in Sources */,
 				AC55A196222FC00400BD84C1 /* AppDelegate.swift in Sources */,
+				ACE4CA48222FC26100543FF9 /* SecondTimeViewController.swift in Sources */,
+				ACE4CA4A222FC27B00543FF9 /* ThirdTimeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP8ZAT56L5;
 				INFOPLIST_FILE = MyTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP8ZAT56L5;
 				INFOPLIST_FILE = MyTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
