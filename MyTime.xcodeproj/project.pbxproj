@@ -14,6 +14,8 @@
 		ACE4CA46222FC24500543FF9 /* FirstTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CA45222FC24500543FF9 /* FirstTimeViewController.swift */; };
 		ACE4CA48222FC26100543FF9 /* SecondTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CA47222FC26100543FF9 /* SecondTimeViewController.swift */; };
 		ACE4CA4A222FC27B00543FF9 /* ThirdTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CA49222FC27B00543FF9 /* ThirdTimeViewController.swift */; };
+		ACE4CA4D222FC31C00543FF9 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CA4C222FC31C00543FF9 /* TimeModel.swift */; };
+		ACE4CA4F2230267300543FF9 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CA4E2230267300543FF9 /* Circle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		ACE4CA45222FC24500543FF9 /* FirstTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTimeViewController.swift; sourceTree = "<group>"; };
 		ACE4CA47222FC26100543FF9 /* SecondTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTimeViewController.swift; sourceTree = "<group>"; };
 		ACE4CA49222FC27B00543FF9 /* ThirdTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTimeViewController.swift; sourceTree = "<group>"; };
+		ACE4CA4C222FC31C00543FF9 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		ACE4CA4E2230267300543FF9 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				AC55A195222FC00400BD84C1 /* AppDelegate.swift */,
 				AC55A199222FC00400BD84C1 /* Main.storyboard */,
+				ACE4CA4E2230267300543FF9 /* Circle.swift */,
+				ACE4CA4C222FC31C00543FF9 /* TimeModel.swift */,
 				ACE4CA4B222FC29200543FF9 /* TimeViewControllers */,
 				AC55A19C222FC00600BD84C1 /* Assets.xcassets */,
 				AC55A19E222FC00600BD84C1 /* LaunchScreen.storyboard */,
@@ -153,6 +159,8 @@
 				AC55A196222FC00400BD84C1 /* AppDelegate.swift in Sources */,
 				ACE4CA48222FC26100543FF9 /* SecondTimeViewController.swift in Sources */,
 				ACE4CA4A222FC27B00543FF9 /* ThirdTimeViewController.swift in Sources */,
+				ACE4CA4D222FC31C00543FF9 /* TimeModel.swift in Sources */,
+				ACE4CA4F2230267300543FF9 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
